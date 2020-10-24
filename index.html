@@ -1,1 +1,311 @@
-<h1>Hola mundo</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peliculas Neftlix</title>
+  <!--Css-->
+  <link rel="stylesheet" href="estilos.css">
+  <!--Font Oswald-->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+  <!--Font AWESOME--->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <!--EL IITULO-->
+  <div class="titulo">
+    <h1 class="logo">Peliculas <span>Neftlix</span> </h1>
+  </div>
+  <!--Boton para abrir navegacion cuando estemos en un celular-->
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+  <hr>
+  <!--Navegacion-->
+  <nav class="nav-main">
+    <img src="Imagenes/pexels-freestocksorg-987586.jpg" alt="Bono LOGO" class="nav-brand">
+    <ul class="nav-menu">
+      <li>
+        <a href="#Menu" onclick="mostrar_menu('1');">Pagina Inicio</a>
+      </li>
+      <li>
+        <a href="#Universal" onclick="mostrar_menu('2');">Informacion de la tienda</a>
+      </li>
+      <li>
+        <a href="#Independiente" onclick="mostrar_menu('3');">Peliculas</a>
+      </li>
+      <li>
+        <a href="#Quedatencasa" onclick="mostrar_menu('4');">Alquilar Peliculas</a>
+      </li>
+    </ul>
+    <ul class="nav-menu-right">
+      <li>
+        <a href="#">
+          <i class="fas fa-search"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <hr>
+  <!--Contender de menu-->
+  <div class="container" id="m1">
+    <!--Poster-->
+    <header class="PeliculasGratis">
+      <h2>Alquila tu pelicula favorita Gratis.</h2>
+      <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium incidunt error
+        necessitatibus, nulla vel, consequatur nobis reiciendis obcaecati, ducimus corporis neque dolorem odit ratione
+        minima officiis id quae non laborum!. Lorem ipsum dolor sit amet consectetur adipisicing elit. A quia fuga, vel
+        amet, natus quod expedita quasi tempore eum quisquam consequatur commodi quas est dolorem quae doloribus
+        impedit? Quae, incidunt!</p>
+      <a href="#" class="btn">Visitar Pagina<i class="fas fa-angle-double-right"></i></a>
+    </header>
+
+    <!--Bonos-->
+    <section class="cards-banner-one">
+      <div class="content">
+        <h2>Neftlix</h2>
+        <!-- lorem 30 -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui laudantium id quam magni accusantium,
+          veritatis, ipsam labore, reprehenderit dolore repudiandae nemo sint deserunt! Suscipit facilis qui inventore
+          consequatur fugit.</p>
+        <a href="https://www.netflix.com/" class="btn" target="_blank">Visitar Pagina <i
+            class="fas fa-chevron-right"></i></a>
+      </div>
+    </section>
+
+  </div>
+  <!--Contender de Universal-->
+  <div class="container" id="m2">
+    <div class="info-tienda">
+      <div>
+        <h3>Tienda alquiler de peliculas Sony</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ut voluptatibus dignissimos, laborum
+          reprehenderit eum ipsum quidem provident officia error, esse commodi quisquam nam, excepturi suscipit vero
+          similique natus ipsam aliquam a aperiam sequi! Maxime magnam quaerat, molestiae quia temporibus, accusantium
+          adipisci molestias eum sed recusandae possimus! Illum tempore ex quia dolore aliquid, doloremque nobis, vitae
+          adipisci at qui magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci enim at debitis
+          pariatur laborum dolore aliquam ipsum, eaque quidem quibusdam quo numquam quam animi! Tempore ipsum saepe
+          soluta veniam qui.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aperiam, enim nulla recusandae quidem et
+          vero rem a similique doloremque dignissimos. Commodi, nulla consequatur voluptatem ducimus culpa porro magni
+          aliquam quo animi quae in sit maxime atque eius quod, doloremque eaque dicta. Suscipit eligendi, laborum ipsam
+          maiores cumque consectetur fugit sapiente officiis qui quibusdam doloribus quasi odio veniam accusantium eos
+          alias dolores tempore deleniti deserunt distinctio explicabo? Voluptatum, suscipit. Ipsa reiciendis suscipit
+          magni perspiciatis porro esse totam harum earum dolor voluptatem deserunt enim rem unde quam animi dolorem,
+          repudiandae possimus odio a sint? Harum, vel assumenda provident, explicabo magni natus in ex libero quae
+          aperiam nisi illum odio dolorum incidunt reprehenderit nesciunt aspernatur? Corporis a ipsa cupiditate nemo
+          optio cumque?</p>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-andrea-piacquadio-3765035.jpg" style="width: 100%; height: 400px;">
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.5119991706283!2d-71.53909428452101!3d-16.398803242480767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424a59ffae2999%3A0xc419f49d1f9cd270!2sPlaza%20de%20Armas%20de%20Arequipa!5e0!3m2!1ses!2spe!4v1603560711160!5m2!1ses!2spe"
+          width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+      <div>
+        <h3>Ubicanos</h3>
+        <p>Av Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores laborum, illum numquam, aspernatur
+          voluptates amet error temporibus consequuntur magnam harum consequatur officia eum maxime repudiandae
+          explicabo ipsum. Laborum, praesentium quasi.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis, quas a odio esse enim dolor numquam
+          molestias, magnam nisi placeat iste. Molestiae tempore, iste ad eum quae totam ab.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis ea aliquid alias id consequuntur amet
+          sequi quo cum! Veniam at reprehenderit, natus dicta voluptate maxime ratione provident expedita eaque. Iure.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, voluptas! Temporibus aliquam quidem
+          doloremque similique, aliquid quam. Non corporis ullam voluptatibus ex omnis commodi natus quisquam soluta
+          quas consequuntur inventore reprehenderit, dolor ducimus optio! In, eveniet qui nam mollitia praesentium
+          veritatis exercitationem commodi atque dolorum ab quibusdam incidunt consectetur soluta magnam non expedita
+          libero pariatur rerum ullam accusantium inventore, deleniti perspiciatis eius autem. Veniam alias inventore
+          possimus doloremque sit expedita libero? Numquam harum suscipit maiores fuga modi fugit ad voluptatibus!</p>
+      </div>
+    </div>
+
+  </div>
+  <!--Contender de Independiente-->
+  <div class="container" id="m3">
+    <div class="news-cards">
+      <div>
+        <img src="Imagenes/pexels-life-of-wu-3381013.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula<i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-snapwire-6992.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-elena-blessing-2674052.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-jameson-mallari-atenta-2725458.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-marcelo-chagas-1784276.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-ana-madeleine-uribe-144474.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula<i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-freestocksorg-185517.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="Imagenes/pexels-ric-rodrigues-1187316.jpg" alt="" />
+        <h3>Lorem, ipsum dolor.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
+          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
+        </p>
+        <a href="#">Alquilar Pelicula <i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+
+  </div>
+  <!--Contender de Quedatencasa-->
+  <div class="container" id="m4">
+    <div class="info-tienda">
+      <div>
+        <form action="procesar.php">
+        <h3>Información de la Pelicula</h3>
+
+        <p class="block">
+          <label>Nombre de la Pelicula</label>
+        </p>
+        <p>
+          <input list="pelicula" name="peliculas" id="peliculas" placeholder="Selecione una pelicula">
+          <datalist id="pelicula">
+            <option value="Araña">
+            <option value="Bosque Embrujado">
+            <option value="Zabana">
+            <option value="Amor">
+            <option value="Un amor diferente">
+            <option value="Perdida en el bosque">
+            <option value="La llorona">
+            <option value="Mujer India">
+          </datalist>
+        </p>
+        <p class="block">
+          <label for="fecha">Fecha Alquiler </label>
+        </p>
+        <p>
+          <input type="date" name="fechaentrada" id="fechasalida" required>
+        </p>
+        <p class="block">
+          <label for="fecha">Fecha Devolucion</label>
+        </p>
+        <p>
+          <input type="date" name="fechasalida" id="fecharegreso" required>
+        </p>
+        <p class="block">
+          <label>Costo</label>
+        </p>
+        <p>
+          <input type="number" name="Precio" pattern="[0-9]" max="300" min="100" maxlength="4" required>
+        </p>
+        <p class="block">
+          <input type="submit" value="Enviar" />
+        </p>
+      </div>
+    </form>
+      <div>
+        <h3>Imagen referencial de la pelicula</h3>
+        <?php
+        $nombre = $_POST['peliculas'];
+        
+        ?>
+      </div>
+    </div>
+  </div>
+  <section class="social">
+    <p>Follow TechNews</p>
+    <div class="links">
+      <a href="https://facebook.com">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://twitter.com">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://linkdin.com">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Ricardo Retamozo</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Git Hut</a>
+        </li>
+        <li>
+          <a href="#">linkedin</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Pelis Gratis</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Git Hut</a>
+        </li>
+        <li>
+          <a href="#">linkedin</a>
+        </li>
+    </div>
+  </div>
+  <footer class="footer">
+    <h3>RMRG</h3>
+  </footer>
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
